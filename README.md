@@ -1,2 +1,13 @@
-# Form
-My beginner frontend FORM project built using HTML and CSS. This project includes a responsive form layout, flexbox-based design, styled components, and an About Me section to practice modern web development basics.
+#FORM PROJECT 
+This is my beginner frontend FORM project created using:
+
+- HTML
+- CSS
+
+Features:
+- Responsive form layout
+- Flexbox design
+- About section
+- Styled button hover effect
+
+Created by Sonali Gupta.
