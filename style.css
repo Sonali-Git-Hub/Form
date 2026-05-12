@@ -1,0 +1,155 @@
+  *{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: arial,sans-serif;
+  background: linear-gradient(to right , #c2f0ec , #dff6ff);
+  min-height: 100vh; ;
+}
+
+
+h1{
+  font-size: 40px;
+  color: #02342f;
+  letter-spacing: 2px;
+}
+
+.container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 100px; */
+  padding:50px ;
+
+
+
+}
+
+.card-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.card
+{
+  margin: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: tranform 0.3s ease;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card-container-about
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group
+{
+  display: flex;
+  align-items: center;
+  gap:10px ;
+  margin-bottom: 15px;
+}
+
+.form-group label
+{
+  width: 70px;
+
+}
+
+.form-group input , .form-group select
+{
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.form-group input:focus , .form-group select:focus
+{
+  border-color: blue;
+  box-shadow:  0 0 5px lightblue;
+} 
+
+
+#my-button
+{
+  /* border: none; */
+  color: black;
+  background:white;
+  padding: 10px;
+  border-radius: 10px;  
+  border-color:#02342f ;
+
+}
+
+
+#my-button:hover
+{
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3 ease;
+  background-color: #02342f;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) ;
+}
+
+h3
+{
+
+text-align: center;
+}
+
+
+@media (max-width : 950px)
+{
+  .form-group{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+   .form-group label
+  {
+    width: 100%;
+  }
+
+  .form-group input,
+  .form-group select
+  {
+    width: 100%;
+  }
+
+  .card
+  {
+    width: 90%;
+  }
+
+   .about-container
+  {
+    width: 90%;
+    text-align: center;
+  }
+}
+

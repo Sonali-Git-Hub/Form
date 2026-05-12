@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Course Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Course Form</h1>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <div class="form-group">
+          <label for="imageUpload">Image :</label>
+        <input
+          type="file"
+          name="image"
+          id="imageUpload"
+          accept="image/*"
+          capture="environment"
+        />
+        </div>
+
+        <div class="form-group">
+          <label for="name">Name :</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div class="form-group">
+          <label for="courses-select">Courses :</label>
+        <select name="courses" id="courses-select">
+          <option value="web--dev">Web Dev</option>
+          <option value="data-science">Data Science</option>
+          <option value="ui-ux">UI/UX</option>
+          <option value="python">Python Programming</option>
+          <option value="Cpp">CPP Programming</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="skill-select">Skills</label>
+        <select name="skills" id="skills-select">
+          <option value="html/css">HTML/CSS</option>
+          <option value="JS">JAVASCRIPT</option>
+          <option value="python">Python</option>
+          <option value="react">React</option>
+          <option value="node.js">NODE.JS</option>
+        </select>
+      </div>  
+
+      </div>
+
+      <div class="about-container">
+        <h3>ABOUT ME</h3>
+        <p>
+          HEY!! This is SONALI GUPTA developer of this card . All the work done
+          on this card is done by me itself only . I am a leaner who is trying
+          to acheive something .
+        </p>
+      </div>
+      <button type="button" id="my-button">Contact me</button>
+    </div>
+  </body>
+</html>
