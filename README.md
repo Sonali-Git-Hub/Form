@@ -11,4 +11,5 @@ Features:
 - Styled button hover effect
 
 Created by Sonali Gupta.
-![FORM Preview](FORM-IMAGE.png)
+![FORM Preview](My_Course_Form.png)
+![FORM Preview](My_Course_Form_Hover.png)
